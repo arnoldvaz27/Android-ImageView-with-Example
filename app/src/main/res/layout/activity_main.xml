@@ -16,7 +16,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         app:tint="@color/color4"
-        android:contentDescription="Description about normal image" />
+        android:contentDescription="@string/description_about_normal_image" />
 
     <ImageView
         android:id="@+id/customImage"
@@ -28,6 +28,6 @@
         android:layout_marginTop="50dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:contentDescription="Description about custom image" />
+        android:contentDescription="@string/description_about_custom_image" />
     <!-- Image View Ends -->
 </RelativeLayout>
